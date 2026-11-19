@@ -9,8 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.3.9",
     "bootstrap-vue": "^2.23.1",
-    "vue": "^3.5.42"
+    "bootstrap-vue-3": "^0.5.1",
+    "vue": "^3.5.42",
+    "vue-router": "^5.5.1",
+    "vue3-simple-alert": "^1.0.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.8",
