@@ -2,11 +2,9 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
-import BootstrapVue3 from 'bootstrap-vue-3';
 import VueSimpleAlert from "vue3-simple-alert";
 
 const app = createApp(App)
-app.use(BootstrapVue3)
 app.use(VueSimpleAlert, {
   reverseButtons: true, // optional, default: false
   buttonsStyling: true, // optional, default: true
